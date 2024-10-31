@@ -29,12 +29,12 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
 
 .main-image {
   height: 700px;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .text-overlay {
@@ -74,5 +74,34 @@ body {
 .image-container img {
   height: 200px;
   width: 300px;
-  opacity: 0.8;
+  opacity: 0.5;
+}
+
+.image-location-container {
+  position: relative;
+}
+
+.location-image {
+  width: 1050px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 140px;
+  opacity: 0.5;
+}
+
+.location-text-overlay {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: dfd3c3;
+  padding: 5px;
+  text-align: center;
+}
+
+.location-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 40px;
 }
